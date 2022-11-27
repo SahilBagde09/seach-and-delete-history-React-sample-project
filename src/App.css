@@ -21,8 +21,13 @@ body {
   align-items: center;
   height: 10vh;
 }
+@media (max-width: 767px) {
+  .nav-bar {
+    padding: 10px;
+  }
+}
 .nav-logo {
-  width: 150px;
+  width: 100px;
 }
 @media (max-width: 767px) {
   .nav-logo {
@@ -60,7 +65,7 @@ body {
 }
 @media (max-width: 767px) {
   .search-input-box {
-    width: 200px;
+    width: 180px;
   }
 }
 .image-box {
