@@ -123,7 +123,6 @@ class App extends Component {
                     </div>
                     <button
                       className="delete-button"
-                      testid="delete"
                       onClick={() => {
                         this.onClickDeleteButton(eachItem.id)
                       }}
